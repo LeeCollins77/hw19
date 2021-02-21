@@ -150,6 +150,17 @@ li {
         color: #7B7B80;
 
     }
+    
+
+  @font-face {
+    font-family: 'Belleza-Regular';
+    src: url(../fonts/Belleza-Regular.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Vogue';
+    src: url(../fonts/Vogue.ttf) format('truetype');
+  }
 
       /* per holly video another way of typing in
       the padding space in the long version would
