@@ -170,3 +170,13 @@ body {
   background-color: #6C52D9;
   background-image: linear-gradient(160deg, #6C52D9 0%, #9B8AE6 127%);
 }
+
+@font-face {
+  font-family: 'Belleza-Regular';
+  src: url(../fonts/Vogue.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Vogue';
+  src: url(../fonts/Vogue.ttf) format('truetype');
+}

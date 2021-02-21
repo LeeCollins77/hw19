@@ -52,22 +52,32 @@ li {
       
   h1 {
     font-family: 'Vogue', serif;
-    font-weight: 300;
+    font-weight: normal;
     font-size:xx-large;
   
      }
 
            
   h2 {
-    font-family:'Belleza-Regular', sans-serif; 
+    font-family: 'Vogue', serif;
+
     font-size: 22px;
-    font-weight: 200;
+    font-weight: normal;
     text-align: center;
   
      }
 
+     h3 {
+        font-family: 'Vogue', serif;
+
+        font-size: 18px;
+        font-weight: normal;
+        text-align: center;
+      
+         }
+
      p {
-        font-family: 'Montserrat', sans-serif;
+        font-family:'Belleza-Regular', sans-serif; 
         font-size: 14px;
       }
 
@@ -135,10 +145,22 @@ li {
         padding-right: 20px;
         font-family:'Belleza-Regular', sans-serif; 
         font-size: 16px;
+        font-weight: normal;
         text-decoration: none;
         color: #7B7B80;
 
     }
+
+
+    @font-face {
+        font-family: 'Belleza-Regular';
+        src: url(../fonts/Belleza-Regular.ttf) format('truetype');
+      }
+    
+      @font-face {
+        font-family: 'Vogue';
+        src: url(../fonts/Vogue.ttf) format('truetype');
+      }
 
       /* per holly video another way of typing in
       the padding space in the long version would
